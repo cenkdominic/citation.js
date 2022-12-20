@@ -27,7 +27,6 @@
     "/build/citation.min.js"
   ],
   "dependencies": {
-    "@citation-js/cli": "0.6.4",
     "@citation-js/core": "0.6.1",
     "@citation-js/date": "0.5.1",
     "@citation-js/name": "0.4.2",
