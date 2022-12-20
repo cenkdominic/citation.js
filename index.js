@@ -4,8 +4,6 @@ require('@citation-js/plugin-bibjson')
 require('@citation-js/plugin-bibtex')
 require('@citation-js/plugin-csl')
 require('@citation-js/plugin-doi')
-require('@citation-js/plugin-ris')
-require('@citation-js/plugin-wikidata')
 
 const citeproc = require('citeproc')
 const name = require('@citation-js/name')
