@@ -153,18 +153,6 @@ Cite.parse = Object.assign({
     }
   }))(require('@citation-js/plugin-doi')),
   json: require('@citation-js/core/lib/plugin-common/input').parsers.json.parse,
-  wikidata: ((wikidata) => ({
-    json: wikidata.parsers.entity.parse,
-    list: wikidata.parsers.id.parse,
-    prop: wikidata.parsers.prop.parse,
-    type: wikidata.parsers.prop.parseType,
-    async: {
-      json: wikidata.parsers.entity.parseAsync,
-      prop (...args) {
-        return Promise.resolve(wikidata.parsers.prop.parse.apply(this, args))
-      }
-    }
-  }))(require('@citation-js/plugin-wikidata'))
 }, Cite.plugins.input)
 
 Cite.get = Object.assign({
