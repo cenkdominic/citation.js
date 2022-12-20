@@ -38,7 +38,7 @@
     "@citation-js/plugin-doi": "0.6.1",
     "@citation-js/plugin-ris": "0.6.2",
     "@citation-js/plugin-wikidata": "0.6.4",
-    "citeproc": "^2.4.59"
+    "citeproc": "https://github.com/cenkdominic/citeproc-js/tarball/master"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
